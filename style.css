@@ -1,0 +1,8 @@
+body {
+    background: blue;
+    color: chocolate;
+    font-size: 20px;
+    font-weight: medium;
+    text-align: center;
+    margin-top: 50px;    /* From 0px and upwards */
+}
