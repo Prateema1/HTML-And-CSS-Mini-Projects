@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+.container {
+  border: 6px solid black;
+  display: flex;
+  /* flex-direction: column; */
+  height: 400px;
+  /* flex-wrap: wrap;  */
+  /* flex-flow: row-reverse wrap; */
+  /* column-gap: 20px;
+  row-gap: 30px; */
+  /* gap: 30px 20px; */
+  /* justify-content: center; */
+  /* align-items: baseline; */
+  /* align-content: space-around; */
+  align-items: flex-end;
+}
+
+.flex-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  /* flex-grow: 1; */
+  /* flex-shrink: 0; */
+  /* width: 6rem; */
+  flex: 0 1 200px;
+}
+
+.item-1 {
+  background-color: red;
+  /* flex-basis: 200px; */
+  align-self: flex-start;
+}
+
+.item-2 {
+  background-color: rgb(165, 214, 31);
+  align-self: flex-end;
+}
+
+.item-3 {
+  background-color: rgb(38, 215, 218);
+  /* order: 1; */
+  /* flex-shrink: 4; */
+  align-self: center;
+}
+
+.item-4 {
+  background-color: rgb(37, 16, 127);
+  /* flex-grow: 1; */
+  align-self: stretch;
+}
+
+.item-5 {
+  background-color: rgb(227, 84, 18);
+  /* flex-grow: 1; */
+}
+
+.item-6 {
+  background-color: rgba(255, 0, 0, 0.59);
+  /* flex-grow: 3; */
+}
+
+.item-7 {
+  background-color: rgb(109, 12, 88);
+  order: 2;
+}
+
+.item-8 {
+  background-color: rgb(12, 99, 40);
+}
+
+.item-9 {
+  background-color: rgb(71, 205, 18);
+  order: 1;
+}
